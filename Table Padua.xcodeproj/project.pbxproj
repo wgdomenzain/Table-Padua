@@ -14,6 +14,12 @@
 		D193F6C01A71776200C55F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D193F6BF1A71776200C55F85 /* Images.xcassets */; };
 		D193F6C31A71776200C55F85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D193F6C11A71776200C55F85 /* LaunchScreen.xib */; };
 		D193F6CF1A71776300C55F85 /* Table_PaduaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D193F6CE1A71776300C55F85 /* Table_PaduaTests.m */; };
+		D193F6DC1A7178EB00C55F85 /* cellWorkers.m in Sources */ = {isa = PBXBuildFile; fileRef = D193F6DB1A7178EB00C55F85 /* cellWorkers.m */; };
+		D193F6E31A717BD100C55F85 /* chavo.png in Resources */ = {isa = PBXBuildFile; fileRef = D193F6DE1A717BD100C55F85 /* chavo.png */; };
+		D193F6E41A717BD100C55F85 /* chilindrina.png in Resources */ = {isa = PBXBuildFile; fileRef = D193F6DF1A717BD100C55F85 /* chilindrina.png */; };
+		D193F6E51A717BD100C55F85 /* clotilde.png in Resources */ = {isa = PBXBuildFile; fileRef = D193F6E01A717BD100C55F85 /* clotilde.png */; };
+		D193F6E61A717BD100C55F85 /* jaimito.png in Resources */ = {isa = PBXBuildFile; fileRef = D193F6E11A717BD100C55F85 /* jaimito.png */; };
+		D193F6E71A717BD100C55F85 /* nono.png in Resources */ = {isa = PBXBuildFile; fileRef = D193F6E21A717BD100C55F85 /* nono.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		D193F6C81A71776300C55F85 /* Table PaduaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table PaduaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D193F6CD1A71776300C55F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D193F6CE1A71776300C55F85 /* Table_PaduaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_PaduaTests.m; sourceTree = "<group>"; };
+		D193F6DA1A7178EB00C55F85 /* cellWorkers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellWorkers.h; sourceTree = "<group>"; };
+		D193F6DB1A7178EB00C55F85 /* cellWorkers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellWorkers.m; sourceTree = "<group>"; };
+		D193F6DE1A717BD100C55F85 /* chavo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chavo.png; sourceTree = "<group>"; };
+		D193F6DF1A717BD100C55F85 /* chilindrina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chilindrina.png; sourceTree = "<group>"; };
+		D193F6E01A717BD100C55F85 /* clotilde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clotilde.png; sourceTree = "<group>"; };
+		D193F6E11A717BD100C55F85 /* jaimito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jaimito.png; sourceTree = "<group>"; };
+		D193F6E21A717BD100C55F85 /* nono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nono.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +96,9 @@
 			children = (
 				D193F6B61A71776200C55F85 /* AppDelegate.h */,
 				D193F6B71A71776200C55F85 /* AppDelegate.m */,
-				D193F6B91A71776200C55F85 /* ViewController.h */,
-				D193F6BA1A71776200C55F85 /* ViewController.m */,
+				D193F6D91A71789300C55F85 /* Controllers */,
+				D193F6D81A71788800C55F85 /* Customized */,
+				D193F6DD1A717BD100C55F85 /* imgs */,
 				D193F6BC1A71776200C55F85 /* Main.storyboard */,
 				D193F6BF1A71776200C55F85 /* Images.xcassets */,
 				D193F6C11A71776200C55F85 /* LaunchScreen.xib */,
@@ -117,6 +131,36 @@
 				D193F6CD1A71776300C55F85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D193F6D81A71788800C55F85 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				D193F6DA1A7178EB00C55F85 /* cellWorkers.h */,
+				D193F6DB1A7178EB00C55F85 /* cellWorkers.m */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		D193F6D91A71789300C55F85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D193F6B91A71776200C55F85 /* ViewController.h */,
+				D193F6BA1A71776200C55F85 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D193F6DD1A717BD100C55F85 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D193F6DE1A717BD100C55F85 /* chavo.png */,
+				D193F6DF1A717BD100C55F85 /* chilindrina.png */,
+				D193F6E01A717BD100C55F85 /* clotilde.png */,
+				D193F6E11A717BD100C55F85 /* jaimito.png */,
+				D193F6E21A717BD100C55F85 /* nono.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +244,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D193F6BE1A71776200C55F85 /* Main.storyboard in Resources */,
+				D193F6E51A717BD100C55F85 /* clotilde.png in Resources */,
+				D193F6E31A717BD100C55F85 /* chavo.png in Resources */,
 				D193F6C31A71776200C55F85 /* LaunchScreen.xib in Resources */,
+				D193F6E41A717BD100C55F85 /* chilindrina.png in Resources */,
+				D193F6E71A717BD100C55F85 /* nono.png in Resources */,
 				D193F6C01A71776200C55F85 /* Images.xcassets in Resources */,
+				D193F6E61A717BD100C55F85 /* jaimito.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D193F6BB1A71776200C55F85 /* ViewController.m in Sources */,
+				D193F6DC1A7178EB00C55F85 /* cellWorkers.m in Sources */,
 				D193F6B81A71776200C55F85 /* AppDelegate.m in Sources */,
 				D193F6B51A71776200C55F85 /* main.m in Sources */,
 			);
